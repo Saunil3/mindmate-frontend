@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
-import api from "../api";
+import api from "../../api";
 
 export default function ViewJournals() {
   const [journals, setJournals] = useState([]);
@@ -79,4 +79,5 @@ export default function ViewJournals() {
     </div>
   );
 }
+
 
