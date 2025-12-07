@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 import UserProfileCard from "./UserProfileCard";
-import api from '../api";
+import api from "../api";
   
 export default function UserList() {
   const [users, setUsers] = useState([]);
