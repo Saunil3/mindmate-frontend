@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
-import api from "../api";
+import api from "../../api";
 
 export default function ManageUsers() {
   const [users, setUsers] = useState([]);
@@ -87,4 +87,5 @@ export default function ManageUsers() {
     </div>
   );
 }
+
 
